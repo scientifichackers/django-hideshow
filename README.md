@@ -8,7 +8,7 @@ Dynamically hide/show Django admin form fields using only HTML attributes. No ja
 class MyModelForm(ModelForm):
     class Media:
         js = (
-            "https://cdn.jsdelivr.net/gh/scientifichackers/django-hideshow/hideshow.js",
+            "https://cdn.jsdelivr.net/gh/scientifichackers/django-hideshow@0.0.1/hideshow.js",
         )          
 ```
 
