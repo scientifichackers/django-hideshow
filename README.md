@@ -24,7 +24,7 @@ class MyModelForm(ModelForm):
                     "--hideshow-fields": "a1, a2, a3, a4",
                     # a2, a4 visible when "0" is selected
                     "--show-on-0": "a2, a4",
-                    # a1, a2 visible when the "1" is selected
+                    # a1, a2 visible when "1" is selected
                     "--show-on-1": "a1, a2",
                 }
             ),
