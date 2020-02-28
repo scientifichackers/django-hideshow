@@ -43,3 +43,4 @@ class MyModelForm(ModelForm):
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/PeQ_uQuaTCI/0.jpg)](https://www.youtube.com/watch?v=PeQ_uQuaTCI)
 
+[Full Example](myapp/admin.py)
