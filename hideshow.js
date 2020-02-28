@@ -8,12 +8,12 @@
     };
 
     document.addEventListener("DOMContentLoaded", function () {
-        let nodes = document.querySelectorAll("[--hide-fields]");
+        let nodes = document.querySelectorAll("[--hideshow-fields]");
 
         for (let node of nodes) {
             let onChange;
 
-            let hideFields = new Set(csvParse(node.getAttribute("--hide-fields")));
+            let hideFields = new Set(csvParse(node.getAttribute("--hideshow-fields")));
 
             switch (node.type) {
                 case "select-one":
